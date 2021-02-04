@@ -1,0 +1,31 @@
+/* :root {
+    --primary: #1888ff;
+} */
+
+.btn{
+    padding: 8px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background-color:  #fca311;
+}
+
+.btn:hover{
+    padding: 6px 18px;
+    transition: all 0.3s ease-out;
+    background-color: transparent;
+    color: rgb(8, 8, 8);
+    border-radius: 4px;
+    border: 2px solid  #fca311;
+}
+@media (min-width: 961px) and (max-width: 1440px){
+    .btn{
+    padding: 8px 20px;
+    font-size: 10px;
+    margin-right: 2rem;
+    display: inline-block;
+}
+}
